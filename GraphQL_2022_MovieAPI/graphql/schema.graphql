@@ -1,0 +1,14 @@
+# DTO 객체 선언
+type Student {
+    id: Int!
+    name: String!
+    dept: String!
+    grade: Int!
+}
+
+# query 함수 선언
+# resolver 에 선언된 함수의 interface 역할 수행
+type Query {
+    student(id: Int!): Student!
+    students: [Student]!
+}

@@ -1,8 +1,15 @@
 {
-  "name": "GraphQL_2022_MovieAPI",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://githum.com/callor/GraphQL_Hello.git",
-  "author": "callor@callor.com",
-  "license": "MIT",
+    "name": "movie-api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "repository": "https://githum.com/callor/GraphQL_Hello.git",
+    "author": "callor@callor.com",
+    "license": "MIT",
+    "dependencies": {
+        "graphql-yoga": "^1.18.3"
+    },
+    "scripts": {
+        "start": "nodemon"
+    }
 }
