@@ -1,0 +1,8 @@
+{
+  "name": "GraphQL_2022_MovieAPI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://githum.com/callor/GraphQL_Hello.git",
+  "author": "callor@callor.com",
+  "license": "MIT",
+}
